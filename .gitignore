@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+.installed.cfg
+MANIFEST
+.DS_Store
+.DS_Store?
+
+
+# virtual environments:
+env/
+Labs/env/*
+env/?
+fastapi_lab1_env
