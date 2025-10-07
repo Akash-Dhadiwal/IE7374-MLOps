@@ -1,0 +1,41 @@
+# Stage 1: Build and Train the Model
+FROM python:3.9 AS model_training
+
+WORKDIR /app
+
+# Copy model training source and requirements
+COPY src/model_training.py /app/
+COPY requirements.txt /app/
+
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Train the Random Forest model
+RUN python model_training.py
+
+
+# Stage 2: Serve Predictions
+FROM python:3.9 AS serving
+
+WORKDIR /app
+
+# Copy model from training stage
+COPY --from=model_training /app/iris_rf_model.joblib /app/
+
+# Copy serving source code and templates/statics
+COPY src/main.py /app/
+COPY src/templates /app/templates
+COPY src/statics /app/statics
+
+# Copy requirements again and install (could be slimmed down for production)
+COPY requirements.txt /app/
+RUN pip install --no-cache-dir --trusted-host pypi.python.org -r requirements.txt
+
+# Expose Flask port
+EXPOSE 4000
+
+# Set environment variable
+ENV NAME=World
+
+# Start the Flask app
+CMD ["python", "main.py"]

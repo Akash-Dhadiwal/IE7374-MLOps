@@ -24,5 +24,4 @@ MANIFEST
 env/
 Labs/env/*
 env/?
-fastapi_lab1_env
 docker_lab2_env
