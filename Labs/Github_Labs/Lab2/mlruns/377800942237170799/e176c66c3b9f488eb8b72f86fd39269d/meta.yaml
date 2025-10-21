@@ -1,0 +1,14 @@
+artifact_uri: /Users/akashdhadiwal/Downloads/IE7374/IE7374-MLOps-main/Labs/Github_Labs/Lab2/mlruns/377800942237170799/e176c66c3b9f488eb8b72f86fd39269d/artifacts
+end_time: 1761088221409
+entry_point_name: ''
+experiment_id: '377800942237170799'
+lifecycle_stage: active
+run_id: e176c66c3b9f488eb8b72f86fd39269d
+run_name: Iris_LogReg
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1761088221384
+status: 3
+tags: []
+user_id: akashdhadiwal
