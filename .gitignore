@@ -26,3 +26,5 @@ Labs/env/*
 env/?
 fastapi_lab1_env
 docker_lab2_env
+github_lab3_env
+airflow_lab4_env
