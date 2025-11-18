@@ -1,0 +1,37 @@
+{
+  "os": "macOS-15.6.1-arm64-arm-64bit",
+  "python": "CPython 3.9.6",
+  "startedAt": "2025-11-18T03:15:04.763644Z",
+  "program": "/Users/akashdhadiwal/Downloads/IE7374/IE7374-MLOps/Labs/Experiment_Tracking_Labs/W&B/copy.ipynb",
+  "codePath": "/Users/akashdhadiwal/Downloads/IE7374/IE7374-MLOps/Labs/Experiment_Tracking_Labs/W&B/copy.ipynb",
+  "codePathLocal": "copy.ipynb",
+  "git": {
+    "remote": "https://github.com/Akash-Dhadiwal/IE7374-MLOps.git",
+    "commit": "b50d6d2d9cecde9f5705e039fcfbdea1b60d8c1a"
+  },
+  "email": "dhadiwalakash82@gmail.com",
+  "root": "/Users/akashdhadiwal/Downloads/IE7374/IE7374-MLOps/Labs/Experiment_Tracking_Labs/W&B",
+  "host": "Akashs-MacBook-Air.local",
+  "executable": "/Users/akashdhadiwal/Downloads/IE7374/IE7374-MLOps/.venv/bin/python",
+  "cpu_count": 8,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "245107195904",
+      "used": "206343757824"
+    }
+  },
+  "memory": {
+    "total": "8589934592"
+  },
+  "apple": {
+    "name": "Apple M3",
+    "ecpuCores": 4,
+    "pcpuCores": 4,
+    "gpuCores": 10,
+    "memoryGb": 8,
+    "swapTotalBytes": "11811160064",
+    "ramTotalBytes": "8589934592"
+  },
+  "writerId": "fczssu1bsxgvp021nmxx8duxg5pe6sqm"
+}

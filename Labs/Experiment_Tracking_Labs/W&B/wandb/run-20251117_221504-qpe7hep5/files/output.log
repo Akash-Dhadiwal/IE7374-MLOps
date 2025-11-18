@@ -1,0 +1,113 @@
+/Users/akashdhadiwal/Downloads/IE7374/IE7374-MLOps/.venv/lib/python3.9/site-packages/keras/src/layers/core/dense.py:93: UserWarning: Do not pass an `input_shape`/`input_dim` argument to a layer. When using Sequential models, prefer using an `Input(shape)` object as the first layer in the model instead.
+  super().__init__(activity_regularizer=activity_regularizer, **kwargs)
+[34m[1mwandb[0m: [33mWARNING[0m WandbCallback is deprecated and will be removed in a future release. Please use the WandbMetricsLogger, WandbModelCheckpoint, and WandbEvalCallback callbacks instead. See https://docs.wandb.ai/guides/integrations/keras for more information.
+[34m[1mwandb[0m: [33mWARNING[0m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+Epoch 1/50
+Epoch 1/50
+Epoch 1/50
+Epoch 1/50
+[1m 1/13[0m [32m━[0m[37m━━━━━━━━━━━━━━━━━━━[0m [1m0s[0m 9ms/step - accuracy: 0.3750 - loss: 1.8031Epoch 1/50
+WARNING:absl:You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`.
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 4ms/step - accuracy: 0.8556 - loss: 0.9700 - val_accuracy: 0.8654 - val_loss: 0.6348
+Epoch 2/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 0.8765 - loss: 0.6073 - val_accuracy: 0.9231 - val_loss: 0.4132
+Epoch 3/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 0.9483 - loss: 0.4085 - val_accuracy: 0.9231 - val_loss: 0.2860
+Epoch 4/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 0.9541 - loss: 0.3029 - val_accuracy: 0.9423 - val_loss: 0.1936
+Epoch 5/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 0.9706 - loss: 0.1678 - val_accuracy: 0.9615 - val_loss: 0.1424
+Epoch 6/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 0.9884 - loss: 0.1474 - val_accuracy: 0.9615 - val_loss: 0.1157
+Epoch 7/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 0.9922 - loss: 0.1068 - val_accuracy: 0.9615 - val_loss: 0.1095
+Epoch 8/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 1.0000 - loss: 0.0660 - val_accuracy: 0.9615 - val_loss: 0.0827
+Epoch 9/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0551 - val_accuracy: 0.9615 - val_loss: 0.0789
+Epoch 10/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0522 - val_accuracy: 0.9615 - val_loss: 0.0892
+Epoch 11/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0354 - val_accuracy: 0.9615 - val_loss: 0.0685
+Epoch 12/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0297 - val_accuracy: 0.9615 - val_loss: 0.0821
+Epoch 13/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0370 - val_accuracy: 0.9423 - val_loss: 0.0997
+Epoch 14/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0209 - val_accuracy: 0.9615 - val_loss: 0.0836
+Epoch 15/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0244 - val_accuracy: 0.9615 - val_loss: 0.0667
+Epoch 16/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0182 - val_accuracy: 0.9615 - val_loss: 0.0922
+Epoch 17/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0208 - val_accuracy: 0.9423 - val_loss: 0.1040
+Epoch 18/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0129 - val_accuracy: 0.9615 - val_loss: 0.0818
+Epoch 19/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0140 - val_accuracy: 0.9615 - val_loss: 0.0724
+Epoch 20/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0114 - val_accuracy: 0.9231 - val_loss: 0.1113
+Epoch 21/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0089 - val_accuracy: 0.9615 - val_loss: 0.0967
+Epoch 22/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0092 - val_accuracy: 0.9423 - val_loss: 0.0984
+Epoch 23/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0106 - val_accuracy: 0.9231 - val_loss: 0.0999
+Epoch 24/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0100 - val_accuracy: 0.9231 - val_loss: 0.1094
+Epoch 25/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0070 - val_accuracy: 0.9231 - val_loss: 0.1146
+Epoch 26/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0070 - val_accuracy: 0.9231 - val_loss: 0.1091
+Epoch 27/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0075 - val_accuracy: 0.9231 - val_loss: 0.1189
+Epoch 28/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0058 - val_accuracy: 0.9231 - val_loss: 0.1098
+Epoch 29/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0045 - val_accuracy: 0.9231 - val_loss: 0.1162
+Epoch 30/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0050 - val_accuracy: 0.9231 - val_loss: 0.1283
+Epoch 31/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0040 - val_accuracy: 0.9231 - val_loss: 0.1461
+Epoch 32/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 1.0000 - loss: 0.0048 - val_accuracy: 0.9231 - val_loss: 0.1275
+Epoch 33/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0054 - val_accuracy: 0.9231 - val_loss: 0.1332
+Epoch 34/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 3ms/step - accuracy: 1.0000 - loss: 0.0040 - val_accuracy: 0.9231 - val_loss: 0.1534
+Epoch 35/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0044 - val_accuracy: 0.9231 - val_loss: 0.1416
+Epoch 36/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0042 - val_accuracy: 0.9231 - val_loss: 0.1498
+Epoch 37/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0057 - val_accuracy: 0.9231 - val_loss: 0.1396
+Epoch 38/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0030 - val_accuracy: 0.9231 - val_loss: 0.1475
+Epoch 39/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0029 - val_accuracy: 0.9231 - val_loss: 0.1705
+Epoch 40/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0023 - val_accuracy: 0.9231 - val_loss: 0.1481
+Epoch 41/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0033 - val_accuracy: 0.9231 - val_loss: 0.1641
+Epoch 42/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0027 - val_accuracy: 0.9231 - val_loss: 0.1698
+Epoch 43/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0022 - val_accuracy: 0.9231 - val_loss: 0.1629
+Epoch 44/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0036 - val_accuracy: 0.9231 - val_loss: 0.1719
+Epoch 45/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0026 - val_accuracy: 0.9231 - val_loss: 0.1675
+Epoch 46/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0018 - val_accuracy: 0.9231 - val_loss: 0.1769
+Epoch 47/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0024 - val_accuracy: 0.9231 - val_loss: 0.1840
+Epoch 48/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0020 - val_accuracy: 0.9231 - val_loss: 0.1741
+Epoch 49/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0016 - val_accuracy: 0.9231 - val_loss: 0.1799
+Epoch 50/50
+[1m13/13[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 2ms/step - accuracy: 1.0000 - loss: 0.0022 - val_accuracy: 0.9231 - val_loss: 0.1854
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 4ms/step - accuracy: 0.8621 - loss: 0.5146 
+Test Accuracy: 0.8818
+[1m4/4[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m0s[0m 6ms/step 
+[34m[1mwandb[0m: [32m[41mERROR[0m The nbformat package was not found. It is required to save notebook history.
